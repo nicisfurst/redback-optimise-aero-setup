@@ -1,29 +1,10 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+This project is designed to aid in the aerodynamic development of the Redback vehicles by estimating the optimal coefficient of lift and drag (which are dependant of eachother) to produce the fastest lap times. The simulation is a point-mass sim, and is designed by OpenLAP.
 
 ### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+1. Install Matlab (under C:/ Program Files)
+2. Install python
+3. Pip install pandas, tqdm, and matplotlib
+4. Edit main.py for your desired setup (with the respective XLSX template of your vehicle under the vehicle templates directory)
+5. Run main.py from the src directory
