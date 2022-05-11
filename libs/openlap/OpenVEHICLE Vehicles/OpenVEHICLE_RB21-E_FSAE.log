@@ -1,0 +1,26 @@
+_______                    ___    ________________  ________________________________
+__  __ \_____________________ |  / /__  ____/__  / / /___  _/_  ____/__  /___  ____/
+_  / / /__  __ \  _ \_  __ \_ | / /__  __/  __  /_/ / __  / _  /    __  / __  __/   
+/ /_/ /__  /_/ /  __/  / / /_ |/ / _  /___  _  __  / __/ /  / /___  _  /___  /___   
+\____/ _  .___/\___//_/ /_/_____/  /_____/  /_/ /_/  /___/  \____/  /_____/_____/   
+       /_/                                                                          
+====================================================================================
+car.xlsx
+File read successfully
+====================================================================================
+Name: RB21-E
+Type: FSAE
+Date: 06/05/2022
+Time: 17:39:37
+====================================================================================
+Vehicle generation started.
+Braking model generated successfully.
+Steering model generated successfully.
+Driveline model generated successfully.
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('table')" style="font-weight:bold">table</a>
+The RowNames property must contain one name for each row in the table.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('OpenVEHICLE', 'D:\Redback\Aero\libs\openlap\OpenVEHICLE.m', 224)" style="font-weight:bold">OpenVEHICLE</a> (<a href="matlab: opentoline('D:\Redback\Aero\libs\openlap\OpenVEHICLE.m',224,0)">line 224</a>)
+shifting = table(shift_points,arrive_points,rev_drops,'RowNames',rownames) ;
+} 
+OpenVEHICLE
